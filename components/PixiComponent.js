@@ -6,7 +6,7 @@ settings.SCALE_MODE = SCALE_MODES.NEAREST
 
 const VercelLogo = () => {
   const [rotation, setRotation] = useState(0)
-  useTick((delta) => delta && setRotation(rotation + 0.1 * delta))
+  useTick((delta) => delta && setRotation(rotation + 0.01 * delta))
 
   return <Sprite image="/logo.jpg" anchor={0.5} scale={1} rotation={rotation} />
 }
