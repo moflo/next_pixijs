@@ -11,10 +11,10 @@ import dynamic from 'next/dynamic'
   export default function IndexPage() {
    return (
      <div>
-       <h1>Testing Headding</h1>
+       <h1>Testing PixiJS &amp; Planck Physics</h1>
        <PixiComponent />
        <PlanckComponent />
-       <pre>This is really small text</pre>
+       <pre>Using react-pixi with NextJS</pre>
      </div>
    )
  }
