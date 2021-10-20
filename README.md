@@ -1,9 +1,11 @@
 # next_pixijs
-Testing next_pixijs
+Testing next_pixijs and planckjs physics engine
 
 # Pixi.js example
 
- This example shows how to use Next.js with [Pixi.js](https://www.pixijs.com/).
+ This example shows how to use Next.js with [Pixi.js](https://www.pixijs.com/) and the [PlanckJS](https://piqnt.com/planck.js) physics engine.
+
+ Oringal NextJS code from andersonleite@ from [PR#28087](https://github.com/vercel/next.js/pull/28087)
 
  ## Deploy your own
 
@@ -27,3 +29,5 @@ Testing next_pixijs
 
  - [Pixi.js documentation](https://pixijs.download/release/docs/index.html)
  - [react-pixi](https://github.com/inlet/react-pixi)
+ - [planckjs](https://piqnt.com/planck.js)
+ - [Pixi+Planck Example](https://github.com/kalanadis/helloPlankByPixi/blob/master/js/main.js)
